@@ -298,8 +298,12 @@ header{
         width: 70%;
     }
     #services .services-item{
-        margin-left: 50px;
+        margin-left: 0px;
         margin-top: 10px;
+        width: 360px;
+    }
+    #services .services-item img{
+        width: 100px;
     }
     #services hr{
         width: 90%;
