@@ -152,6 +152,7 @@ header{
     border: 1px solid #fff;
 }
 #about p{
+    text-align: justify;
     font-family: 'Poppins',sans-serif;
     margin-left: 20px;
     margin-right: 20px;
@@ -173,7 +174,7 @@ header{
     border: 1px solid #07113d;
 }
 #services p{
-    text-align: center;
+    text-align: justify;
     font-family: 'Poppins',sans-serif;
     margin-left: 50px;
     margin-right: 50px;

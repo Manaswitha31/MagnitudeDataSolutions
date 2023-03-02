@@ -117,9 +117,11 @@ header{
     background-color: #3f4f97;
 }
 .body-text{
+    text-align: justify;
     margin-left: 100px;
 }
 .text{
+    text-align: justify;
     margin-left: 80px;
     width: 80vw;
 }
@@ -127,6 +129,7 @@ header{
     float: right;
 }
 .body-text1{
+    text-align: justify;
     margin-left: 130px;
 }
 .texts{
