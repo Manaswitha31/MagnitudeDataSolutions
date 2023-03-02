@@ -265,6 +265,8 @@ header{
 @media  screen and (max-width:470px){
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #body{
         width: 100vw;
@@ -272,7 +274,7 @@ header{
         margin-top: 10vh;
     }
     #home-text h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 15px;
         font-weight: bold;
         margin-top: -200px;
@@ -300,7 +302,7 @@ header{
         margin-left: 60px;
     }
     #services .services-item{
-        margin-left: 10px;
+        margin-left: 25px;
         margin-top: 10px;
         width: 340px;
     }
