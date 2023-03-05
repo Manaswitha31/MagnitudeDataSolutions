@@ -35,8 +35,8 @@
     </header>
     <section id="menu">
     <ul id="menu-ul">
-        <li><a>HOME</a></li>
-        <li><a>ABOUT US</a></li>
+        <li><a href="#" onclick="menuDisplay()">HOME</a></li>
+        <li><a href="#about" onclick="menuDisplay()">ABOUT US</a></li>
         <li><a onclick="dropdown()">SERVICES&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a></li>
         <ul id="menu-ul1">
             <li><a href="b2b-mailing-list.html">B2B MAILING LIST</a></li>
@@ -44,7 +44,7 @@
             <li><a href="customised-list-building.html">CUSTOMISED-LIST-BUILDING</a></li>
             <li><a href="list-management-services.html">LIST-MANAGEMENT-SERVICES</a></li>
         </ul>
-        <li><a>CONTACT</a></li>
+        <li><a href="#contact" onclick="menuDisplay()">CONTACT</a></li>
     </ul>
     </section>
     <img id="body" src="img/homeBg.png">
@@ -155,6 +155,9 @@
             else{
                 document.getElementById("menu").style.display="none";
             }
+        }
+        function menuDisplay(){
+            document.getElementById("menu").style.display="none";
         }
     </script>
 </body>

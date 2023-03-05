@@ -30,8 +30,23 @@
                     <li class="nav-item"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
+            <a id="menu-btn" onclick="menuDropdown()"><i class="fa-solid fa-bars"></i></a>
         </div>
     </header>
+    <section id="menu">
+        <ul id="menu-ul">
+            <li><a href="#" onclick="menuDisplay()">HOME</a></li>
+            <li><a href="about.html" onclick="menuDisplay()">ABOUT US</a></li>
+            <li><a onclick="dropdown()">SERVICES&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a></li>
+            <ul id="menu-ul1">
+                <li><a href="b2b-mailing-list.html">B2B MAILING LIST</a></li>
+                <li><a href="b2b-data-appending.html">B2B-DATA-APPENDING</a></li>
+                <li><a href="customised-list-building.html">CUSTOMISED-LIST-BUILDING</a></li>
+                <li><a href="list-management-services.html">LIST-MANAGEMENT-SERVICES</a></li>
+            </ul>
+            <li><a href="#contact" onclick="menuDisplay()">CONTACT</a></li>
+        </ul>
+        </section>
     <section id="home">
         <h1 id="home-text">B2B <br>Data<br>Appending</h1>
         <img src="img/B2B-Data-Appending.png">
@@ -89,5 +104,27 @@
         <p id="copyright">Copyright &copy; <b>Magnitude Data Solutions</b> 2023</p>
     </section>
     <a href="#" id="scrollToTop"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        function dropdown(){
+            if(document.getElementById("menu-ul1").style.display=="none"){
+                document.getElementById("menu-ul1").style.display="block";
+            }
+            else{
+                document.getElementById("menu-ul1").style.display="none";
+            }
+        }
+
+        function menuDropdown(){
+            if(document.getElementById("menu").style.display=="none"){
+                document.getElementById("menu").style.display = "block";
+            }
+            else{
+                document.getElementById("menu").style.display="none";
+            }
+        }
+        function menuDisplay(){
+            document.getElementById("menu").style.display="none";
+        }
+    </script>
     </body>
 </html>

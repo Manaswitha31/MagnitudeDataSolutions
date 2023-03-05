@@ -76,6 +76,50 @@ header{
 #navbar #logo{
     margin-top: -60px;
 }
+#menu{
+    position: absolute;
+    margin-top: 15vh;
+    z-index: 99999999;
+    width: 100vw;
+    display: none;
+}
+#menu #menu-ul{
+    background-color: #fff;
+}
+#menu #menu-ul li:hover{
+    background-color: #3f4f97;
+    color: #fff;
+}
+#menu #menu-ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+}
+#menu #menu-ul1{
+    display: none;
+}
+#menu #menu-ul1 li a{
+    color: black;
+}
+#menu #menu-ul1 li:hover{
+    background-color: #3f4f97;
+    color: #fff;
+}
+#menu-btn{
+    background-color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: -70px;
+    float: left;
+    display: none;
+}
 #home-text{
     margin-top: 200px;
     font-size: 70px;
@@ -188,9 +232,14 @@ header{
     }
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #navbar nav ul{
         display: none;
+    }
+    #menu-btn{
+        display: block;
     }
     #home img{
         margin-top: 70px;
@@ -235,9 +284,14 @@ header{
     }
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #navbar nav ul{
         display: none;
+    }
+    #menu-btn{
+        display: block;
     }
     #home img{
         margin-top: 50px;
@@ -273,9 +327,14 @@ header{
     }
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #navbar nav ul{
         display: none;
+    }
+    #menu-btn{
+        display: block;
     }
     #home img{
         margin-top: 50px;
@@ -311,9 +370,14 @@ header{
     }
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #navbar nav ul{
         display: none;
+    }
+    #menu-btn{
+        display: block;
     }
     #home img{
         margin-top: 50px;
@@ -348,9 +412,14 @@ header{
     }
     #navbar #logo{
         margin-left: -70px;
+        width: 300px;
+        height: 200px;
     }
     #navbar nav ul{
         display: none;
+    }
+    #menu-btn{
+        display: block;
     }
     #home img{
         margin-top: 50px;

@@ -104,6 +104,7 @@ header{
     text-align: center;
     cursor: pointer;
     font-size: 15px;
+    color: #000;
 }
 #menu #menu-ul1{
     display: none;
