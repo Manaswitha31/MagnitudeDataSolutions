@@ -87,6 +87,7 @@ header{
     z-index: 99999999;
     width: 100vw;
     display: none;
+    position: fixed;
 }
 #menu #menu-ul{
     background-color: #fbf9f9;
