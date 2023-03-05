@@ -28,9 +28,9 @@
                     </ul>
                 </li>
                     <li class="nav-item"><a href="#contact">CONTACT</a></li>
-                    <a id="menu-btn"><i class="fa-solid fa-bars"></i></a>
                 </ul>
             </nav>
+            <a id="menu-btn" onclick="menuDropdown()"><i class="fa-solid fa-bars"></i></a>
         </div>
     </header>
     <section id="menu">
@@ -39,10 +39,10 @@
         <li><a>ABOUT US</a></li>
         <li><a onclick="dropdown()">SERVICES&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a></li>
         <ul id="menu-ul1">
-            <li><a>B2B MAILING LIST</a></li>
-            <li><a>B2B-DATA-APPENDING</a></li>
-            <li><a>CUSTOMISED-LIST-BUILDING</a></li>
-            <li><a>LIST-MANAGEMENT-SERVICES</a></li>
+            <li><a href="b2b-mailing-list.html">B2B MAILING LIST</a></li>
+            <li><a href="b2b-data-appending.html">B2B-DATA-APPENDING</a></li>
+            <li><a href="customised-list-building.html">CUSTOMISED-LIST-BUILDING</a></li>
+            <li><a href="list-management-services.html">LIST-MANAGEMENT-SERVICES</a></li>
         </ul>
         <li><a>CONTACT</a></li>
     </ul>
@@ -50,7 +50,7 @@
     <img id="body" src="img/homeBg.png">
     <div id="home-text">
     <h1>Magnitude<br>Data<br>Solutions</h1>
-    <button>Get Started &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+    <a href="#about"><button>Get Started &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button></a>
 </div>
 <section id="about"><br><br>
     <h1>ABOUT US</h1><br>
@@ -145,6 +145,15 @@
             }
             else{
                 document.getElementById("menu-ul1").style.display="none";
+            }
+        }
+
+        function menuDropdown(){
+            if(document.getElementById("menu").style.display=="none"){
+                document.getElementById("menu").style.display = "block";
+            }
+            else{
+                document.getElementById("menu").style.display="none";
             }
         }
     </script>
