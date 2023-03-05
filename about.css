@@ -186,7 +186,41 @@ header{
     margin-top: 30px;
 }
 
-@media  screen and (max-width:570px){
+@media  screen and (max-width:470px){
+    #navbar #logo{
+        margin-left: -70px;
+        width: 300px;
+        height: 200px;
+    }
+    #navbar nav ul{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+    }
+    #home img{
+        margin-left: 50px;
+        width: 300px;
+        height: 200px;
+    }
+    .text{
+        margin-left: 60px;
+        width: 80vw;
+    }
+    #contact{
+        height: 800px;
+    }
+    #contact hr{
+        width: 90%;
+        margin-left: 20px;
+        border: 1px solid #fff;
+    }
+    #contact .social-networks{
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+}
+@media  screen and (min-width:471px) and (max-width:570px){
     #navbar #logo{
         margin-left: -70px;
         width: 300px;
