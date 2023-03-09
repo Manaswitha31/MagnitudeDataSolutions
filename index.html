@@ -14,8 +14,8 @@
     <body>
         <header id="header">
             <div id="navbar"> 
-            <nav>
-                <img id="logo" src="img/logo.png" width="350" height="200"> 
+            <nav class="navTag">
+                <img id="logo" src="img/ChangedLogo.png" width="250" height="180"> 
                 <ul class="nav">
                     <li class="nav-item"><a>HOME</a></li>
                     <li class="nav-item"><a href="#about">ABOUT US</a></li>
@@ -30,7 +30,7 @@
                     <li class="nav-item"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <a id="menu-btn" onclick="menuDropdown()"><i class="fa-solid fa-bars fa-xl"></i></a>
+            <a id="menu-btn" onclick="menuDropdown()"><i class="fa-solid fa-bars fa-2xl"></i></a>
         </div>
     </header>
     <section id="menu">
@@ -47,9 +47,9 @@
         <li><a href="#contact" onclick="menuDisplay()">CONTACT</a></li>
     </ul>
     </section>
-    <img id="body" src="img/homeBg.png">
+    <img src="img/1.png" id="body">
     <div id="home-text">
-    <h1>Magnitude<br>Data<br>Solutions</h1>
+    <h1>Magnitude Data Solutions</h1>
     <a href="#about"><button>Get Started &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button></a>
 </div>
 <section id="about"><br><br>
@@ -110,7 +110,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="img/logo.png" id="footer-logo" width="350" height="300">
+                <img src="img/ChangedLogo.png" id="footer-logo" width="350" height="300">
             </div>
             <div class="col-lg-4">
                 <h2>Address</h2>
@@ -159,6 +159,11 @@
         function menuDisplay(){
             document.getElementById("menu").style.display="none";
         }
+
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
     </script>
 </body>
 </html>
