@@ -224,6 +224,7 @@ header.sticky #navbar nav ul li a{
     vertical-align: top;
     width: 400px;
     height: 400px;
+    margin: auto;
     margin-left: 80px;
     background-color: #199F8F;
     display: inline-block;
@@ -347,8 +348,8 @@ header.sticky #navbar nav ul li a{
         margin-left: 60px;
     }
     #services .services-item{
-        margin-left: 25px;
-        margin-top: 10px;
+        transform: translate(-20%, -0%);
+        margin-top: 50px;
         width: 340px;
     }
     #services .services-item:nth-child(2){
