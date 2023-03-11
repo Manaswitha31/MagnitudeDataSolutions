@@ -13,16 +13,6 @@ body{
     height: 100vh;
     background-color: #000;
 }
-#homeDiv{
-    width: 600px;
-    height: 500px;
-    border-radius: 50%;
-    z-index: 100;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 800px;
-    background-color: #03b0d7;
-}
 #homeDiv #atoz{
     margin-top: 30px;
 }
@@ -34,13 +24,13 @@ body{
     color: #fff;
     width: 40px;
     height: 40px;
-    background-color: #7171a6;
+    background-color: #199F8F;
     padding: 14px;
     border-radius: 5px;
     cursor: pointer;
 }
 #scrollToTop:hover{
-    background-color: #07113d;
+    background-color: #01423a;
 }
 header{
     width: 100vw;
@@ -366,7 +356,7 @@ header.sticky #navbar nav ul li a{
     #services hr{
         width: 90%;
         margin-left: 20px;
-        border: 1px solid #07113d;
+        border: 1px solid #01423a;
     }
     #contact{
         height: 800px;
@@ -374,11 +364,11 @@ header.sticky #navbar nav ul li a{
     #contact hr{
         width: 90%;
         margin-left: 20px;
-        border: 1px solid #fff;
+        border: 1px solid #199F8F;
     }
     #contact .social-networks{
         margin-top: 40px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
 }
 @media  screen and (min-width:471px) and (max-width:570px){
@@ -407,10 +397,6 @@ header.sticky #navbar nav ul li a{
     }
     header{
         margin-top: 0vh;
-    }
-    header.sticky{
-        background-color: #fff;
-        transition: 0.4s;
     }
     #navbar{
         margin-top: 0px;

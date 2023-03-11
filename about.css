@@ -12,21 +12,30 @@
     color: #fff;
     width: 40px;
     height: 40px;
-    background-color: #7171a6;
+    background-color: #199F8F;
     padding: 14px;
     border-radius: 5px;
     cursor: pointer;
 }
 #scrollToTop:hover{
-    background-color: #07113d;
+    background-color: #01423a;
 }
 header{
     position: fixed;
     z-index: 9999;
     width: 100vw;
 }
+header.sticky{
+    background-color: #199F8F;
+    transition: 0.4s;
+}
+header.sticky #navbar nav ul li a{
+    color: #fff;
+}
+header.sticky #menu-btn{
+    color: #fff;
+}
 #navbar nav{
-    background-color: #3f4f97;
     height: 100px;
 }
 #navbar nav::after{
@@ -54,7 +63,7 @@ header{
     color: #fff;
 }
 #navbar nav ul li:hover a{
-    background-color: #07113d;
+    background-color: #199F8F;
 }
 #navbar nav ul ul{
     position: absolute;
@@ -120,11 +129,11 @@ header{
     margin-top: -70px;
     float: left;
     display: none;
-    color: #fff;
+    color: #199F8F;
 }
-#menu-btn:hover{
+#menu-btn:hover,i:hover{
     background-color: #fff;
-    color: #000;
+    color: #199F8F;
 }
 #home img{
     width: 800px;
@@ -133,14 +142,14 @@ header{
     height: 400px;
 }
 #heading{
-    background-color: #8c9de9;
+    background-color: #000;
     width: 99vw;
     padding: 10px;
     margin-top: 30px;
 }
 #heading h1{
     text-align: center;
-    color: #fff;
+    color: #199F8F;
 }
 .text{
     margin-left: 80px;
@@ -148,7 +157,7 @@ header{
 }
 #contact{
     height: 400px;
-    background-color: #07113d;
+    background-color: #01423a;
 }
 .container #footer-logo{
     margin-left: -100px;
@@ -196,9 +205,10 @@ header{
 
 @media  screen and (max-width:470px){
     #navbar #logo{
-        margin-left: -70px;
-        width: 300px;
-        height: 200px;
+        margin-left: -20px;
+        margin-top: -25px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
