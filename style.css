@@ -587,6 +587,9 @@ header.sticky #navbar nav ul li a{
     #menu{
         display: none;
     }
+    #services .services-item{
+        margin-top: 10px;
+    }
 }
 @media  screen and (width:570px){
     #navbar #logo{
@@ -644,11 +647,8 @@ header.sticky #navbar nav ul li a{
         margin-left: 150px;
     }
 }
-/*@media  screen and (min-width:1400px){
-    header{
-        margin-top: 0vh;
+@media  screen and (min-width:1400px){
+    #services .services-item{
+        margin-top: 10px;
     }
-    #menu{
-        display: none;
-    }
-}*/
+}
