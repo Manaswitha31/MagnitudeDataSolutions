@@ -188,27 +188,49 @@ header.sticky #navbar nav ul li a{
     color: #000;
     font-size: 17px;
 }
-#services{
+#motto .motto{
+    background-color: rgb(47, 46, 46);
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#motto .motto h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+#motto .motto p{
+    text-transform: uppercase;
+    text-align: justify;
+    color: #fff;
+    padding: 15px;
+}
+#services #services-1{
     background-color: #090909;
+    padding: 20px;
 }
 #services h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     text-align: center;
-    color: #fff;
+    color: #199F8F;
 }
 #services hr{
     width: 90%;
     margin-left: 90px;
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 #services p{
     text-align: justify;
     font-family: 'Poppins',sans-serif;
     margin-left: 50px;
     margin-right: 50px;
-    color: #fff;
+    color: #000;
     font-size: 17px;
+}
+#services #services-1 p{
+    color: #fff;
 }
 #services .services-item{ 
     vertical-align: top;
