@@ -32,6 +32,10 @@ header.sticky{
 header.sticky #navbar nav ul li a{
     color: #fff;
 }
+header.sticky #navbar nav ul li a:hover{
+    background-color: #fff;
+    color: #199F8F;
+}
 header.sticky #menu-btn{
     color: #fff;
 }
@@ -60,7 +64,7 @@ header.sticky #menu-btn{
     text-align: center;
     cursor: pointer;
     font-size: 15px;
-    color: #fff;
+    color: #000;
 }
 #navbar nav ul li:hover a{
     background-color: #199F8F;
@@ -82,7 +86,7 @@ header.sticky #menu-btn{
     margin-top: -120px;
 }
 #navbar #logo{
-    margin-top: -60px;
+    margin-top: -40px;
 }
 #menu{
     position: absolute;
