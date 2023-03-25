@@ -384,7 +384,11 @@ header.sticky #menu-btn{
         margin-left: 20px;
         margin-right: 20px;
      }
-}
+     #section-1-1 #homeBg{
+        width: 250;
+        height: 200;
+     }
+ }
 
 @media  screen and (min-width:471px) and (max-width:570px){
     header{
