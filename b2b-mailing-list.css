@@ -334,9 +334,9 @@ header.sticky #menu-btn{
     }
     #navbar #logo{
         margin-top: -25px;
-        margin-left: -40px;
-        width: 250px;
-        height: 180px;
+        margin-left: -20px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
@@ -356,6 +356,18 @@ header.sticky #menu-btn{
     .text{
         width: 70vw;
     }
+    #section-1 ul li{
+        list-style-type: none;
+    }
+    #section-1 img{
+        width: 320px;
+        height: 280px;
+    }
+    #section-1-1 #img{
+        width: 320px;
+        height: 280px;
+        float: center;
+    }
     .body-text{
         margin-left: 70px;
         width: 280px;
@@ -367,6 +379,11 @@ header.sticky #menu-btn{
     .button-body{
         width: 75vw;
         margin-left: 70px;
+    }
+    #content .content-div{
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     #contact{
         height: 800px;
@@ -395,9 +412,10 @@ header.sticky #menu-btn{
         margin-top: 0px;
     }
     #navbar #logo{
-        margin-left: -40px;
-        width: 250px;
-        height: 180px;
+        margin-top: -25px;
+        margin-left: -20px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
@@ -449,9 +467,10 @@ header.sticky #menu-btn{
         margin-top: 0px;
     }
     #navbar #logo{
-        margin-left: -40px;
-        width: 250px;
-        height: 180px;
+        margin-top: -25px;
+        margin-left: -20px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
@@ -496,9 +515,10 @@ header.sticky #menu-btn{
         margin-top: 0px;
     }
     #navbar #logo{
-        margin-left: -40px;
-        width: 250px;
-        height: 180px;
+        margin-top: -25px;
+        margin-left: -20px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
@@ -542,9 +562,10 @@ header.sticky #menu-btn{
         margin-top: 0px;
     }
     #navbar #logo{
-        margin-left: -40px;
-        width: 250px;
-        height: 180px;
+        margin-top: -25px;
+        margin-left: -20px;
+        width: 200px;
+        height: 150px;
     }
     #navbar nav ul{
         display: none;
